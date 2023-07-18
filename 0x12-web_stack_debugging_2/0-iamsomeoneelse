@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# Run a command as someone else
-
-sudo -u "$1" whoami
+# Script that runs whoami command under an used passed
+sudo -u "$1" 'whoami'
